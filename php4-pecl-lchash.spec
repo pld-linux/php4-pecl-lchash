@@ -4,7 +4,7 @@
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
 
 Summary:	%{_modname} - Libc Hash Interface
-Summary(pl):	%{_modname} - interfejs tablic haszuj±cych libc
+Summary(pl.UTF-8):   %{_modname} - interfejs tablic haszujÄ…cych libc
 Name:		php4-pecl-%{_modname}
 Version:	0.9.1
 Release:	1
@@ -26,9 +26,9 @@ tables described by POSIX 1003.1-2001.
 
 In PECL status of this extension is: %{_status}.
 
-%description -l pl
+%description -l pl.UTF-8
 Rozszerzenie LCHASH dostarcza interfejsu do implementacji libc tablic
-haszuj±cych okre¶lonych przez standard POSIX 1003.1-2001.
+haszujÄ…cych okreÅ›lonych przez standard POSIX 1003.1-2001.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
