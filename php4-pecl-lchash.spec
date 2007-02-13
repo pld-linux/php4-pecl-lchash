@@ -4,7 +4,7 @@
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
 
 Summary:	%{_modname} - Libc Hash Interface
-Summary(pl.UTF-8):   %{_modname} - interfejs tablic haszujących libc
+Summary(pl.UTF-8):	%{_modname} - interfejs tablic haszujących libc
 Name:		php4-pecl-%{_modname}
 Version:	0.9.1
 Release:	1
